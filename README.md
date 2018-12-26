@@ -1,2 +1,3 @@
 # Algorithm
-## [1.Search](https://github.com/xiaojkql/Algorithm/tree/master/Search)
+[1.GreeksForGreeks](https://github.com/xiaojkql/Algorithm/tree/master/Search) from this [site](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#SearchingandSorting)
+
