@@ -18,3 +18,4 @@ if __name__ == "__main__":
     nums = [4,5,7,8,9,10]
     solution = Solution()
     print(solution.twoSum(nums,18))
+    print(15)
