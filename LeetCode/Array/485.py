@@ -14,6 +14,7 @@ class Solution:
                 max_local = 0
         return max(max_global, max_local)
 
+
     def findMaxConsecutiveOnes_Using_0_1_Structure(self, nums):
         """
         :type nums: List[int]

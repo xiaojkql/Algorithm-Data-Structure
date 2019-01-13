@@ -1,0 +1,102 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+1.py	../Array\1.py	1;"	kind:file	line:1
+118.py	../Array\118.py	1;"	kind:file	line:1
+119.py	../Array\119.py	1;"	kind:file	line:1
+122.py	../Array\122.py	1;"	kind:file	line:1
+167.py	../Array\167.py	1;"	kind:file	line:1
+169.py	../Array\169.py	1;"	kind:file	line:1
+189.py	../Array\189.py	1;"	kind:file	line:1
+217.py	../Array\217.py	1;"	kind:file	line:1
+219.py	../Array\219.py	1;"	kind:file	line:1
+26.py	../Array\26.py	1;"	kind:file	line:1
+268.py	../Array\268.py	1;"	kind:file	line:1
+283.py	../Array\283.py	1;"	kind:file	line:1
+414.py	../Array\414.py	1;"	kind:file	line:1
+448.py	../Array\448.py	1;"	kind:file	line:1
+485.py	../Array\485.py	1;"	kind:file	line:1
+500.py	../Array\500.py	1;"	kind:file	line:1
+88.py	../Array\88.py	1;"	kind:file	line:1
+Solution	../Array\1.py	/^class Solution:$/;"	kind:class	line:1
+Solution	../Array\118.py	/^class Solution:$/;"	kind:class	line:2
+Solution	../Array\119.py	/^class Solution:$/;"	kind:class	line:1
+Solution	../Array\122.py	/^class Solution:$/;"	kind:class	line:1
+Solution	../Array\167.py	/^class Solution:$/;"	kind:class	line:1
+Solution	../Array\169.py	/^class Solution:$/;"	kind:class	line:3
+Solution	../Array\189.py	/^class Solution:$/;"	kind:class	line:1
+Solution	../Array\217.py	/^class Solution:$/;"	kind:class	line:2
+Solution	../Array\219.py	/^class Solution:$/;"	kind:class	line:1
+Solution	../Array\26.py	/^class Solution:$/;"	kind:class	line:1
+Solution	../Array\268.py	/^class Solution:$/;"	kind:class	line:1
+Solution	../Array\283.py	/^class Solution:$/;"	kind:class	line:1
+Solution	../Array\414.py	/^    class Solution:$/;"	kind:class	line:14
+Solution	../Array\414.py	/^class Solution:$/;"	kind:class	line:1
+Solution	../Array\448.py	/^class Solution:$/;"	kind:class	line:1
+Solution	../Array\485.py	/^class Solution:$/;"	kind:class	line:1
+Solution	../Array\88.py	/^class Solution:$/;"	kind:class	line:1
+a	../Array\500.py	/^a = 20$/;"	kind:variable	line:2
+collections	../Array\169.py	/^import collections$/;"	kind:namespace	line:2
+collections	../Array\217.py	/^import collections$/;"	kind:namespace	line:1
+containsDuplicateBruteForce	../Array\217.py	/^    def containsDuplicateBruteForce(self, nums):$/;"	kind:member	line:11
+containsDuplicateHash	../Array\217.py	/^    def containsDuplicateHash(self, nums):$/;"	kind:member	line:35
+containsDuplicateSimple	../Array\217.py	/^    def containsDuplicateSimple(self, nums):$/;"	kind:member	line:3
+containsDuplicateSorted	../Array\217.py	/^    def containsDuplicateSorted(self, nums):$/;"	kind:member	line:23
+containsNearbyDuplicate	../Array\219.py	/^    def containsNearbyDuplicate(self, nums, k):$/;"	kind:member	line:2
+findDisappearedNumbers	../Array\448.py	/^    def findDisappearedNumbers(self, nums):$/;"	kind:member	line:2
+findDisappearedNumbersSet	../Array\448.py	/^    def findDisappearedNumbersSet(self, nums):$/;"	kind:member	line:15
+findDisappearedNumbers_Mannual	../Array\448.py	/^    def findDisappearedNumbers_Mannual(self, nums):$/;"	kind:member	line:24
+findMaxConsecutiveOnes	../Array\485.py	/^    def findMaxConsecutiveOnes(self, nums):$/;"	kind:member	line:2
+findMaxConsecutiveOnes_Using_0_1_Structure	../Array\485.py	/^    def findMaxConsecutiveOnes_Using_0_1_Structure(self, nums):$/;"	kind:member	line:17
+gca	../Array\189.py	/^    def gca(self, a, b):$/;"	kind:member	line:73
+generate	../Array\118.py	/^    def generate(self, numRows):$/;"	kind:member	line:3
+getRow	../Array\119.py	/^    def getRow(self, rowIndex):$/;"	kind:member	line:2
+majorityElement	../Array\169.py	/^    def majorityElement(self, nums):$/;"	kind:member	line:11
+majorityElementHashMap	../Array\169.py	/^    def majorityElementHashMap(self, nums):$/;"	kind:member	line:22
+majorityElementSimple	../Array\169.py	/^    def majorityElementSimple(self, nums):$/;"	kind:member	line:4
+matplotlib	../Array\test.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:1
+maxProfit	../Array\122.py	/^    def maxProfit(self, prices):$/;"	kind:member	line:2
+maxProfitSimple	../Array\122.py	/^    def maxProfitSimple(self, prices):$/;"	kind:member	line:26
+merge	../Array\88.py	/^    def merge(self, nums1, m, nums2, n):$/;"	kind:member	line:2
+merge2	../Array\88.py	/^    def merge2(self,nums1,m,nums2,n):$/;"	kind:member	line:28
+missingNumberBruteforce	../Array\268.py	/^    def missingNumberBruteforce(self, nums):$/;"	kind:member	line:2
+missingNumberHashSet	../Array\268.py	/^    def missingNumberHashSet(self, nums):  # This is accepted O(n)$/;"	kind:member	line:12
+missingNumberSorted	../Array\268.py	/^    def missingNumberSorted(self, nums):$/;"	kind:member	line:44
+missingNumberSum	../Array\268.py	/^    def missingNumberSum(self, nums):$/;"	kind:member	line:24
+missingNumberXOR	../Array\268.py	/^    def missingNumberXOR(self, nums):$/;"	kind:member	line:34
+moveZeroes	../Array\283.py	/^    def moveZeroes(self, nums):$/;"	kind:member	line:2
+moveZeroes	../Array\283.py	/^    def moveZeroes(self, nums):$/;"	kind:member	line:43
+moveZeroes1	../Array\283.py	/^    def moveZeroes1(self, nums):$/;"	kind:member	line:11
+moveZeroes2	../Array\283.py	/^    def moveZeroes2(self, nums):$/;"	kind:member	line:27
+np	../Array\500.py	/^import numpy as np$/;"	kind:namespace	line:1
+nums	../Array\1.py	/^    nums = [4,5,7,8,9,10]$/;"	kind:variable	line:18
+nums	../Array\189.py	/^    nums = [1,2,3,4,5,6,7,8,9,10,11,12]$/;"	kind:variable	line:82
+nums	../Array\217.py	/^    nums = [1,2,2,3,3]$/;"	kind:variable	line:48
+nums	../Array\26.py	/^    nums = [1,2,2,3,3,4,5,5,6,7,7,8,8]$/;"	kind:variable	line:19
+nums1	../Array\88.py	/^    nums1 = [1,2,7,10,56,0,0,0,0,0,0,0]$/;"	kind:variable	line:40
+nums2	../Array\88.py	/^    nums2 = [2,3,8,9,11,100]$/;"	kind:variable	line:41
+plt	../Array\test.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:1
+prices	../Array\122.py	/^    prices = [1,2,3,4,5]$/;"	kind:variable	line:40
+random	../Array\169.py	/^import random$/;"	kind:namespace	line:1
+removeDuplicates	../Array\26.py	/^    def removeDuplicates(self, nums):$/;"	kind:member	line:2
+reverse	../Array\189.py	/^    def reverse(self, arr, lo, hi):  # include hi$/;"	kind:member	line:29
+rotate	../Array\189.py	/^    def rotate(self, nums, d):$/;"	kind:member	line:50
+rotateBruteForce	../Array\189.py	/^    def rotateBruteForce(self, nums, k):$/;"	kind:member	line:2
+rotateTempArr	../Array\189.py	/^    def rotateTempArr(self, nums, k):$/;"	kind:member	line:37
+rotaterReverse	../Array\189.py	/^    def rotaterReverse(self, nums, k):$/;"	kind:member	line:15
+solution	../Array\1.py	/^    solution = Solution()$/;"	kind:variable	line:19
+solution	../Array\122.py	/^    solution = Solution()$/;"	kind:variable	line:41
+solution	../Array\189.py	/^    solution = Solution()$/;"	kind:variable	line:84
+solution	../Array\217.py	/^    solution = Solution()$/;"	kind:variable	line:49
+solution	../Array\26.py	/^    solution = Solution()$/;"	kind:variable	line:18
+solution	../Array\88.py	/^    solution = Solution()$/;"	kind:variable	line:42
+test.py	../Array\test.py	1;"	kind:file	line:1
+thirdMax	../Array\414.py	/^        def thirdMax(self, nums):$/;"	kind:member	line:15
+thirdMaxPyrhonBuiltInMethod	../Array\414.py	/^    def thirdMaxPyrhonBuiltInMethod(self, nums):$/;"	kind:member	line:2
+twoSum	../Array\1.py	/^    def twoSum(self,nums,target):$/;"	kind:member	line:2
+twoSum	../Array\167.py	/^    def twoSum(self, numbers, target):$/;"	kind:member	line:38
+twoSumComplex	../Array\167.py	/^    def twoSumComplex(self, numbers, target):$/;"	kind:member	line:2
+twoSumTwoPointer	../Array\167.py	/^    def twoSumTwoPointer(self, numbers, target):$/;"	kind:member	line:18
