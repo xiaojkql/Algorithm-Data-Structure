@@ -10,7 +10,6 @@ import numpy as np
 a = np.abs(-1)
 print(a)
 
-
 a = 2
 b = a*2
 
