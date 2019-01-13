@@ -3,6 +3,7 @@ class Solution:
         """
         :type nums: List[int]
         :rtype: int
+        
         """
         setNums = list(set(nums))
         setNums.sort()
