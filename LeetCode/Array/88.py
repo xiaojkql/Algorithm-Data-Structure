@@ -6,7 +6,6 @@ class Solution:
         :type nums2: List[int]
         :type n: int
         :rtype: void Do not return anything, modify nums1 in-place instead.
-        
         """
         # idea ： 将最大的排在最后面，然后依次排
         k = m + n - 1
