@@ -6,6 +6,8 @@ Time: 2019-01-15 18:38:54
 '''
 
 # 两种实现方式都是稳定的，可以保持相等元素的输入顺序性
+# 最好情况就是已经排序好了只需n-1次比较，复杂度为O(n)
+# 最坏情况就是完全逆序，0,1,2,...,n 次交换，比较，复杂度为O(n^2)
 class BubbleSort():
     def version1(self,nums,lo,hi): # [lo, hi)
         sorted = False
