@@ -10,3 +10,5 @@ ans[0][0] = 5
 print(ans)
 # --> print: [[5, 2, 3], [1, 2, 3]]
 
+isSame = [True,False,True]
+print(sum(isSame))
