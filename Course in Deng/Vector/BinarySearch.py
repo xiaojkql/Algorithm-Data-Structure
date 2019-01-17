@@ -22,29 +22,29 @@ class BinarySearch():
         return -1
 
     # 保证 nums[lo] <= val 若要保证次序，则可以lo+1
-    # 若要保证插入后保持次序，则 
+    # 若要保证插入后保持次序，则
     def version2(self, val, nums, lo, hi):
-        while(hi-lo>1): # 最后剩一个元素，[lo, hi) 保证了nums[lo]<=val，所以要么在里面要么就不在里面
-            mid = (lo + hi)//2 # 保证了所有index都在序列之中
+        while(hi-lo > 1):  # 最后剩一个元素，[lo, hi) 保证了nums[lo]<=val，所以要么在里面要么就不在里面
+            mid = (lo + hi)//2  # 保证了所有index都在序列之中
             if nums[mid] <= val:
-                lo = mid # 使 lo始终在包含val的index之中
+                lo = mid  # 使 lo始终在包含val的index之中
             else:
-                hi = mid # 使 hi始终不在包含val的index之中
+                hi = mid  # 使 hi始终不在包含val的index之中
         return lo+1
 
     # nums[hi-1]>=val>nums[lo] lo+1要么大于，要么等于
     # 最后剩[lo,hi)
-    def version3(self,val,nums,lo,hi):
-        while(hi-lo>1): 
+    def version3(self, val, nums, lo, hi):
+        while(hi-lo > 1):
             mid = (lo + hi)//2
-            if nums[mid]>=val: 
+            if nums[mid] >= val:
                 hi = mid
             else:
                 lo = mid
         return lo+1
 
-    def version4(self,val,nums,lo,hi):
-        while(hi-lo>1):
+    def version4(self, val, nums, lo, hi):
+        while(hi-lo > 1):
             mid = (lo + hi)//2
             if nums[mid] > val:
                 hi = mid
@@ -54,7 +54,7 @@ class BinarySearch():
 
 
 if __name__ == "__main__":
-    nums = [1,2,5,8,9,10,11,12,13]
+    nums = [1, 2, 5, 8, 9, 10, 11, 12, 13]
     search = BinarySearch()
     val = 10
     print(search.version4(val, nums, 0, len(nums)))

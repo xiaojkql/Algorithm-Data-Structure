@@ -8,5 +8,3 @@ print(list(map(operator.sub,a[2:],a)))
 a = [[5]*2]*5
 print(a)
 '''
-
-
