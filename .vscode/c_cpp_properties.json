@@ -4,7 +4,6 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceRoot}",
-                "C:\\MinGW\\include",
                 "C:/mingw/lib/gcc/mingw32/8.2.0/include/c++",
                 "C:/mingw/lib/gcc/mingw32/8.2.0/include/c++/mingw32",
                 "C:/mingw/lib/gcc/mingw32/8.2.0/include/c++/backward",
@@ -22,7 +21,6 @@
             "browse": {
                 "path": [
                     "${workspaceRoot}",
-                    "C:\\MinGW\\include",
                     "C:/mingw/lib/gcc/mingw32/8.2.0/include/c++",
                     "C:/mingw/lib/gcc/mingw32/8.2.0/include/c++/mingw32",
                     "C:/mingw/lib/gcc/mingw32/8.2.0/include/c++/backward",
