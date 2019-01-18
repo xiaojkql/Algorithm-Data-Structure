@@ -3,7 +3,7 @@
 
 // vecor class
 
-#pragram once
+#pragma once
 
 typedef int Rank;          // 自己定义一个类型
 #define Default_Capacity 3 // vector 默认的容量
@@ -37,4 +37,8 @@ class Vector
     Vector(Vector<T> const &_vec) { copy_from(_vec._elem, 0, _vec._size); }
     //从另一个vector的一部分复制过来
     Vector(Vector<T> const &_vec, Rank lo, Rank hi) { copy_from(_vec._elem, lo, hi); }
+
+    ~Vector() { delete[] _elem; }
 };
+
+#include "vector_implementation.h"

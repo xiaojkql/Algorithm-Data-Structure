@@ -9,7 +9,8 @@
                 "C:/mingw/lib/gcc/mingw32/8.2.0/include/c++/backward",
                 "C:/mingw/lib/gcc/mingw32/8.2.0/include",
                 "C:/mingw/lib/gcc/mingw32/8.2.0/include/c++/tr1",
-                "C:/mingw/mingw32/include"
+                "C:/mingw/mingw32/include",
+                "${workspaceFolder}/Basic Data Structure/Vector"
             ],
             "defines": [
                 "_DEBUG",
