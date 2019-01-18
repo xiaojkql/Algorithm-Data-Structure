@@ -1,0 +1,18 @@
+﻿  print_basic.cpp
+  main.cpp
+c:\users\xiaojkql\desktop\src\uniprint\Print_traversable.h(16): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“Vector<int> *”
+  c:\users\xiaojkql\desktop\src\selection\../UniPrint/print.h(34): note: 参见对正在编译的函数 模板 实例化“void UniPrint::p<T>(T &)”的引用
+          with
+          [
+              T=Vector<int>
+          ]
+  main.cpp(27): note: 参见对正在编译的函数 模板 实例化“void print<Vector<int>>(T &)”的引用
+          with
+          [
+              T=Vector<int>
+          ]
+  正在生成代码
+  All 46 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  selection.vcxproj -> C:\Users\xiaojkql\Desktop\src\Release\selection.exe
+  selection.vcxproj -> C:\Users\xiaojkql\Desktop\src\Release\selection.pdb (Full PDB)

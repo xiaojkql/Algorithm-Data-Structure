@@ -1,0 +1,27 @@
+﻿  main.cpp
+c:\users\lenovo\desktop\src\vector\main.cpp(122): warning C4474: printf: 格式字符串中传递的参数太多
+  c:\users\lenovo\desktop\src\vector\main.cpp(122): note: 占位符和其参数预计 1 可变参数，但提供的却是 3 参数
+  c:\users\lenovo\desktop\src\vector\main.cpp(226): note: 参见对正在编译的函数 模板 实例化“void testVector<int>(int)”的引用
+c:\users\lenovo\desktop\src\vector\main.cpp(140): warning C4474: printf: 格式字符串中传递的参数太多
+  c:\users\lenovo\desktop\src\vector\main.cpp(140): note: 占位符和其参数预计 1 可变参数，但提供的却是 3 参数
+c:\users\lenovo\desktop\src\vector\main.cpp(197): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+  c:\users\lenovo\desktop\src\vector\main.cpp(197): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  c:\users\lenovo\desktop\src\vector\main.cpp(197): note: 缺失的可变参数 2 为格式字符串“%d”所需
+c:\users\lenovo\desktop\src\uniprint\print_traversable.h(16): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“Vector<T> *”
+          with
+          [
+              T=int
+          ]
+  c:\users\lenovo\desktop\src\uniprint\print.h(34): note: 参见对正在编译的函数 模板 实例化“void UniPrint::p<T>(T &)”的引用
+          with
+          [
+              T=Vector<int>
+          ]
+  c:\users\lenovo\desktop\src\vector\main.cpp(97): note: 参见对正在编译的函数 模板 实例化“void print<Vector<T>>(Vector<T> &)”的引用
+          with
+          [
+              T=int
+          ]
+  c:\users\lenovo\desktop\src\vector\main.cpp(226): note: 参见对正在编译的函数 模板 实例化“void testVector<int>(int)”的引用
+  vector.vcxproj -> C:\Users\Lenovo\Desktop\src\vector\Debug\vector.exe
+  vector.vcxproj -> C:\Users\Lenovo\Desktop\src\vector\Debug\vector.pdb (Full PDB)

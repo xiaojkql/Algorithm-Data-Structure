@@ -1,0 +1,11 @@
+﻿  print_basic.cpp
+  main.cpp
+main.cpp(100): error C3861: “min”: 找不到标识符
+  main.cpp(138): note: 参见对正在编译的函数 模板 实例化“void testVector<int>(int)”的引用
+main.cpp(97): warning C4474: printf: 格式字符串中传递的参数太多
+  main.cpp(97): note: 占位符和其参数预计 1 可变参数，但提供的却是 3 参数
+main.cpp(101): warning C4474: printf: 格式字符串中传递的参数太多
+  main.cpp(101): note: 占位符和其参数预计 1 可变参数，但提供的却是 3 参数
+main.cpp(124): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+  main.cpp(124): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  main.cpp(124): note: 缺失的可变参数 2 为格式字符串“%d”所需

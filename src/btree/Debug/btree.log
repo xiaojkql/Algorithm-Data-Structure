@@ -1,0 +1,22 @@
+﻿  main.cpp
+c:\users\lenovo\desktop\src\uniprint\print_btree.h(21): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“BTree<T> *”
+          with
+          [
+              T=int
+          ]
+  c:\users\lenovo\desktop\src\uniprint\print.h(34): note: 参见对正在编译的函数 模板 实例化“void UniPrint::p<T>(BTree<T> &)”的引用
+          with
+          [
+              T=int
+          ]
+  c:\users\lenovo\desktop\src\btree\main.cpp(31): note: 参见对正在编译的函数 模板 实例化“void print<BTree<T>>(BTree<T> &)”的引用
+          with
+          [
+              T=int
+          ]
+  c:\users\lenovo\desktop\src\btree\main.cpp(62): note: 参见对正在编译的函数 模板 实例化“void testBTree<int>(int,int)”的引用
+  print_basic.cpp
+  正在生成代码...
+print_basic.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  btree.vcxproj -> C:\Users\Lenovo\Desktop\src\btree\Debug\BTree.exe
+  btree.vcxproj -> C:\Users\Lenovo\Desktop\src\btree\Debug\BTree.pdb (Full PDB)

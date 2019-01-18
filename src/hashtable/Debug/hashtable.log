@@ -1,0 +1,28 @@
+﻿  main.cpp
+c:\users\lenovo\desktop\src\uniprint\print_hashtable.h(17): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“Hashtable<K,V> *”
+          with
+          [
+              K=int,
+              V=char
+          ]
+  c:\users\lenovo\desktop\src\uniprint\print.h(34): note: 参见对正在编译的函数 模板 实例化“void UniPrint::p<K,V>(Hashtable<K,V> &)”的引用
+          with
+          [
+              K=int,
+              V=char
+          ]
+  c:\users\lenovo\desktop\src\hashtable\main.cpp(19): note: 参见对正在编译的函数 模板 实例化“void print<Hashtable<K,V>>(T &)”的引用
+          with
+          [
+              K=int,
+              V=char,
+              T=Hashtable<int,char>
+          ]
+  c:\users\lenovo\desktop\src\hashtable\main.cpp(58): note: 参见对正在编译的函数 模板 实例化“void testHashtable<int,char>(int)”的引用
+  print_HuffChar.cpp
+  print_basic.cpp
+  primeNLT.cpp
+  正在生成代码...
+primeNLT.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  hashtable.vcxproj -> C:\Users\Lenovo\Desktop\src\hashtable\Debug\hashtable.exe
+  hashtable.vcxproj -> C:\Users\Lenovo\Desktop\src\hashtable\Debug\hashtable.pdb (Full PDB)

@@ -1,0 +1,36 @@
+﻿  Graph_Test.cpp
+c:\users\lenovo\desktop\src\uniprint\print_graphmatrix.h(18): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“GraphMatrix<char,int> *”
+  c:\users\lenovo\desktop\src\uniprint\print.h(34): note: 参见对正在编译的函数 模板 实例化“void UniPrint::p<char,int>(GraphMatrix<char,int> &)”的引用
+  c:\users\lenovo\desktop\src\graph\graph_test.cpp(63): note: 参见对正在编译的函数 模板 实例化“void print<GraphMatrix<char,int>>(T &)”的引用
+          with
+          [
+              T=GraphMatrix<char,int>
+          ]
+c:\users\lenovo\desktop\src\uniprint\print_traversable.h(16): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“Stack<Tv> *”
+          with
+          [
+              Tv=char
+          ]
+  c:\users\lenovo\desktop\src\uniprint\print.h(34): note: 参见对正在编译的函数 模板 实例化“void UniPrint::p<T>(T &)”的引用
+          with
+          [
+              T=Stack<char>
+          ]
+  c:\users\lenovo\desktop\src\uniprint\print.h(33): note: 参见对正在编译的函数 模板 实例化“void print<T>(T &)”的引用
+          with
+          [
+              T=Stack<char>
+          ]
+  c:\users\lenovo\desktop\src\graph\graph_test.cpp(99): note: 参见对正在编译的函数 模板 实例化“void print<Stack<Tv>>(T *)”的引用
+          with
+          [
+              Tv=char,
+              T=Stack<char>
+          ]
+  正在生成代码...
+  正在编译...
+  print_basic.cpp
+  正在生成代码...
+Graph_Test.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  graphmatrix.vcxproj -> C:\Users\Lenovo\Desktop\src\graphmatrix\Debug\graphMatrix.exe
+  graphmatrix.vcxproj -> C:\Users\Lenovo\Desktop\src\graphmatrix\Debug\graphMatrix.pdb (Full PDB)

@@ -1,0 +1,11 @@
+﻿  main.cpp
+  bubble2.cpp
+  bubble1B.cpp
+  bubble1A.cpp
+  bubble.cpp
+  print_int_array.cpp
+  Shuffle.cpp
+  正在生成代码...
+Shuffle.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  bubblesort.vcxproj -> C:\Users\Lenovo\Desktop\src\bubblesort\Debug\bubblesort.exe
+  bubblesort.vcxproj -> C:\Users\Lenovo\Desktop\src\bubblesort\Debug\bubblesort.pdb (Full PDB)
