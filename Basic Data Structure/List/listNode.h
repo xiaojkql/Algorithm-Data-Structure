@@ -2,7 +2,7 @@
 // Time:
 #pragma once
 
-#define NodePosi(T) ListNode<T> *
+#define NodePosi(T) ListNode<T>*
 
 template <typename T>
 struct ListNode
@@ -19,19 +19,19 @@ struct ListNode
     ~ListNode() {}
 
     // 成员函数
-    void insertAfter(T const &e)
+    NodePosi(T) insertAfter(T const &e)
     {
-        NodePosi(T) node = new ListNode<T>;
-        node->data = e;
-        node->pred = this;
+        NodePosi(T) node = new ListNode<T>(e,this,succ);
+        succ->pred = node;
         succ = node;
+        return node;
     }
 
-    void insertBefor(T const &e)
+    NodePosi(T) insertBefor(T const &e)
     {
-        node = new NodePosi<T>;
-        node->data = e;
-        node->succ = this;
+        NodePosi(T) node = new ListNode<T>(e,pred,this);
+        pred->succ = node;
         pred = node;
+        return node;
     }
 };
