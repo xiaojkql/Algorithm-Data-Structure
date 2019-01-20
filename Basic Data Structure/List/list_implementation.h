@@ -22,3 +22,6 @@
 // 可写操作接口
 #include "list_remove.h"
 #include "list_insert.h"
+
+// 遍历列表中的元素接口
+#include "list_traverse.h"

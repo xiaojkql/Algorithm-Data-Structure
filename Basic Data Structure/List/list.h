@@ -19,7 +19,7 @@ protected:
 public:
   // 构造函数
   List();
-  List(ListNode<T> const &ls); //从一条列表直接创建
+  List(List<T> const &ls); //从一条列表直接创建
 
   // 析构函数
   ~List();
@@ -39,6 +39,12 @@ public:
 
   // 删除节点p
   T remove(NodePosi(T) p);
+
+  // 遍历操作
+  void traverse(void (*VST)(T &e));//用函数的指针传入
+
+  template<typename VST>
+  void traverse(VST& vst); //传入的是一个类型对象
 };
 
 #include "list_implementation.h"

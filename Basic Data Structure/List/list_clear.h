@@ -8,7 +8,7 @@ void List<T>::clear()
 {
     while (_size--)
     {
-        p = header->succ;
+        NodePosi(T) p = header->succ;
         header->succ = p->succ;
         delete p;
     }
