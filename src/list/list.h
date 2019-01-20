@@ -10,10 +10,14 @@
 
 #include "listNode.h" //引入列表节点类
 
-template <typename T> class List { //列表模板类
+template <typename T> 
+class List { //列表模板类
 
+	// 双向列表有三个数据成员，元素的数目，头尾节点
 private:
-   int _size; ListNodePosi(T) header; ListNodePosi(T) trailer; //规模、头哨兵、尾哨兵
+   int _size; 
+   ListNodePosi(T) header; 
+   ListNodePosi(T) trailer; //规模、头哨兵、尾哨兵
 
 protected:
    void init(); //列表创建时的初始化
@@ -30,8 +34,10 @@ public:
    List ( List<T> const& L ); //整体复制列表L
    List ( List<T> const& L, Rank r, int n ); //复制列表L中自第r项起的n项
    List ( ListNodePosi(T) p, int n ); //复制列表中自位置p起的n项
+
 // 析构函数
    ~List(); //释放（包含头、尾哨兵在内的）所有节点
+
 // 只读访问接口
    Rank size() const { return _size; } //规模
    bool empty() const { return _size <= 0; } //判空
