@@ -19,7 +19,7 @@ List<T>::List(List<T> const &ls)
 template <typename T>
 List<T>::~List()
 {
-    claer();
+    clear();
     delete header;
     delete trailer;
 }
