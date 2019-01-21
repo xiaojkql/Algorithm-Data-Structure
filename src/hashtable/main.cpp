@@ -16,26 +16,34 @@
  ******************************************************************************************/
 template <typename K, typename V> //key、value
 void testHashtable ( int n ) {
-   Hashtable<K, V> ht ( n ); print ( ht );
+
+   Hashtable<K, V> ht ( n ); 
+   print ( ht );
    while ( ht.size() < 4 * n ) {
       printf ( "\n" );
       switch ( dice ( 3 ) ) {
          case 0: { //查找，成功率 <= 33.3%
             K key = dice ( ( K ) n * 12 ); //[0, 3n)范围内的key
-            printf ( "Searching " ); print ( key ); printf ( "(%04d) :\n", hashCode ( key ) );
+            printf ( "Searching " ); 
+			print ( key ); 
+			printf ( "(%04d) :\n", hashCode ( key ) );
             V* pValue = ht.get ( key );
             pValue ? printf ( "Found with " ), print ( *pValue ) : printf ( "Not found" ); printf ( "\n" );
             break;
          }
          case 1: { //删除，成功率 <= 33.3%
             K key = dice ( ( K ) n * 12 ); //[0, 3n)范围内的key
-            printf ( "Removing " ); print ( key ); printf ( "(%04d) :\n", hashCode ( key ) );
+            printf ( "Removing " ); 
+			print ( key ); 
+			printf ( "(%04d) :\n", hashCode ( key ) );
             ht.remove ( key ) ? printf ( "Done\n" ), print ( ht ) : printf ( "Entry not exists\n" );
             break;
          }
          default: {//插入，成功率 == 100%
             K key = dice ( ( K ) n * 12 ); V v = ( V ) 'A' + dice ( 26 ); //在[0, 2n)*['A'~'Z']范围内的词条
-            printf ( "Inserting <" ); print ( key ); printf ( "(%04d)", hashCode ( key ) ); printf ( "," ); print ( v ); printf ( ">\n" );
+            printf ( "Inserting <" ); 
+			print ( key ); printf ( "(%04d)", hashCode ( key ) ); 
+			printf ( "," ); print ( v ); printf ( ">\n" );
             ht.put ( key, v ) ? printf ( "Done\n" ), print ( ht ) : printf ( "Dup key\n" );
             break;
          }
