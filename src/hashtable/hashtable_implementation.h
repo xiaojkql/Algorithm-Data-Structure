@@ -19,12 +19,24 @@
 
 #include "Hashtable_constructor.h"
 #include "Hashtable_destructor.h"
+
+// 将关键字码进行编码
 #include "Hashtable_hashCode.h"
+
+// 查找元素是否存在于该哈希表中
 #include "Hashtable_probe4Hit.h"
 
 // 查找空桶
 #include "Hashtable_probe4Free.h"
+
+// 通过关键字得到该关键字所表示的值value
 #include "Hashtable_get.h"
+
+// 将关键字为key，value的词条推进该哈希表中
 #include "Hashtable_put.h"
+
+
 #include "Hashtable_remove.h"
+
+
 #include "Hashtable_rehash.h"

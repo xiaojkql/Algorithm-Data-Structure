@@ -56,7 +56,9 @@ public:
    template <typename T> static void p ( Splay<T>& ); //Splay
    template <typename T> static void p ( Quadlist<T>& ); //Quadlist
    template <typename K, typename V> static void p ( Skiplist<K, V>& ); //Skiplist
+
    template <typename K, typename V> static void p ( Hashtable<K, V>& ); //Hashtable
+
    template <typename T> static void p ( PQ_List<T>& ); //PQ_List
    template <typename T> static void p ( PQ_ComplHeap<T>& ); //PQ_ComplHeap
    template <typename T> static void p ( PQ_LeftHeap<T>& ); //PQ_LeftHeap
