@@ -1,28 +1,35 @@
-﻿  main.cpp
-d:\work\src\uniprint\print_hashtable.h(17): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“Hashtable<K,V> *”
+﻿  primeNLT.cpp
+  正在生成代码...
+  正在编译...
+  main.cpp
+d:\mygithub\algorithm\src\list\list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\mygithub\algorithm\src\bintree\binnode.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\mygithub\algorithm\src\uniprint\print_hashtable.h(18): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“Hashtable<K,V> *”
           with
           [
               K=int,
               V=char
           ]
-  d:\work\src\uniprint\print.h(34): note: 参见对正在编译的函数 模板 实例化“void UniPrint::p<K,V>(Hashtable<K,V> &)”的引用
+  d:\mygithub\algorithm\src\uniprint\print.h(34): note: 参见对正在编译的函数 模板 实例化“void UniPrint::p<K,V>(Hashtable<K,V> &)”的引用
           with
           [
               K=int,
               V=char
           ]
-  d:\work\src\hashtable\main.cpp(19): note: 参见对正在编译的函数 模板 实例化“void print<Hashtable<K,V>>(T &)”的引用
+  d:\mygithub\algorithm\src\hashtable\main.cpp(21): note: 参见对正在编译的函数 模板 实例化“void print<Hashtable<K,V>>(T &)”的引用
           with
           [
               K=int,
               V=char,
               T=Hashtable<int,char>
           ]
-  d:\work\src\hashtable\main.cpp(58): note: 参见对正在编译的函数 模板 实例化“void testHashtable<int,char>(int)”的引用
-  print_HuffChar.cpp
+  d:\mygithub\algorithm\src\hashtable\main.cpp(75): note: 参见对正在编译的函数 模板 实例化“void testHashtable<int,char>(int)”的引用
   print_basic.cpp
-  primeNLT.cpp
+d:\mygithub\algorithm\src\bintree\binnode.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\mygithub\algorithm\src\list\list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  print_HuffChar.cpp
+d:\mygithub\algorithm\src\bintree\binnode.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\mygithub\algorithm\src\list\list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   正在生成代码...
-primeNLT.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
-  hashtable.vcxproj -> D:\Work\src\hashtable\Debug\hashtable.exe
-  hashtable.vcxproj -> D:\Work\src\hashtable\Debug\hashtable.pdb (Full PDB)
+  hashtable.vcxproj -> D:\MyGithub\Algorithm\src\hashtable\Debug\hashtable.exe
+  hashtable.vcxproj -> D:\MyGithub\Algorithm\src\hashtable\Debug\hashtable.pdb (Full PDB)

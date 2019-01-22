@@ -12,7 +12,7 @@
 
 template <typename K, typename V> 
 Hashtable<K, V>::Hashtable ( int c ) { //创建散列表，容量为
-   M = primeNLT ( c, 1048576, "../../_input/prime-1048576-bitmap.txt" ); //不小于c的素数M
+   M = primeNLT ( c, 1048576, "../../_input/prime-1048576-bitmap.txt" ); //不小于c的素数M 上两层的文件
    N = 0; 
    ht = new Entry<K, V>*[M]; //开辟桶数组（还需核对申请成功），初始装填因子为N/M = 0%
    memset ( ht, 0, sizeof ( Entry<K, V>* ) *M ); //初始化各桶 memset一个C++内含的批初始化函数

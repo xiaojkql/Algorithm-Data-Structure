@@ -72,6 +72,8 @@ void testHashtable ( int n ) {
 int main ( int argc, char* argv[] ) {
    if ( 2 > argc ) { printf ( "Usage: %s <size of test>\a\a\n", argv[0] ); return 1; }
    srand ( ( unsigned int ) time ( NULL ) ); //设置随机种子
-   testHashtable<int, char> ( atoi ( argv[1] ) ); //元素类型可以在这里任意选择
+   
+   testHashtable<int, char> ( atoi ( argv[1] ) ); //元素类型可以在这里任意选择 函数滴哦用
+   
    return 0;
 }
