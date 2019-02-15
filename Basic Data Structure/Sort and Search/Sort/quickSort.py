@@ -12,7 +12,7 @@ Time: 2019-02-15 21:15:43
 def quickSort(ls, lo, hi):  # [lo, hi)
     if hi - lo < 2:  # 递归基，单元素就不需要再进行划分
         return
-    mi = partitionB(ls, lo, hi-1)  # 找轴点
+    mi = partitionC(ls, lo, hi-1)  # 找轴点
     quickSort(ls, lo, mi)  # 对轴点前面的部分进行快排
     quickSort(ls, mi+1, hi)  # 对轴点后面的部分进行快排
 
@@ -55,7 +55,20 @@ def partitionB(ls, lo, hi):  # 对[lo, hi]区间中的列表元素进行划分
     return lo
 
 
+def partitionC(ls, lo, hi):  # 列表区间是[lo, hi]
+    """快排 划分子序列的变种"""
+    pivot = ls[lo]
+    mi = lo
+    for i in range(lo+1, hi+1):
+        if ls[i] < pivot:
+            mi += 1
+            ls[mi], ls[i] = ls[i], ls[mi]  # 只有小于时才交换，保证了mi是小于pivot的
+    ls[lo], ls[mi] = ls[mi], ls[lo]
+    return mi
+
+
 if __name__ == "__main__":
-    ls = [4, 5, 7, 2, 4, 6, 2, 4, 10, 11, 1, 0, 3, 9]
+    ls = [4, 5, 7, 2, 4, 6, 2, 2, 2, 6, 100, 0,
+          200, 200, 0, 0, 4, 10, 11, 1, 0, 3, 9]
     quickSort(ls, 0, len(ls))
     print(ls)
