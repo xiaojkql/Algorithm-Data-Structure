@@ -12,7 +12,7 @@ Time: 2019-01-15 19:15:27
 
 class MergeSort():
     def version(self, nums, lo, hi):  # 不包含hi
-        a = 1
+        self.a = 1
 
 
 def sortMerge(nums, lo, hi):
@@ -25,12 +25,14 @@ def sortMerge(nums, lo, hi):
         merge(nums, lo, mi, hi)
 
 # 实现时一个意思 传入有点问题
+
+
 def merge(nums, lo, mi, hi):
     temp = [nums[i] for i in range(mi, hi)]  # 这是新的list
-    i = mi - 1 
-    j = hi-mi-1 # 还尚未插入的
-    lenhi = hi-1 # 一定要注意不要改变传入的参数，数的复制时深复制
-    while(i >= lo and j >= 0):        
+    i = mi - 1
+    j = hi-mi-1  # 还尚未插入的
+    lenhi = hi-1  # 一定要注意不要改变传入的参数，数的复制时深复制
+    while(i >= lo and j >= 0):
         if temp[j] >= nums[i]:
             nums[lenhi] = temp[j]
             j -= 1
@@ -47,6 +49,6 @@ def merge(nums, lo, mi, hi):
 
 if __name__ == "__main__":
     sortC = MergeSort()
-    nums = [5,4,6,75,23,5,6,1,2,3,100]
-    sortMerge(nums,0,9)
+    nums = [5, 4, 6, 75, 23, 5, 6, 1, 2, 3, 100]
+    sortMerge(nums, 0, 9)
     print(nums)
