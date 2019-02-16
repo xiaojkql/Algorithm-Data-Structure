@@ -46,8 +46,31 @@ class SingleLink:
             probe._next = None
             return removeData
 
-    def insert(self, node, value):
-        pass
+    def insertAtIndex(self, index, value):
+        if self._head is None or index <= 0:
+            self._head = Node(value, self._head)
+        else:
+            probe = self._head
+            while (index > 1) and (probe._next is not None):
+                index -= 1
+                probe = probe._next
+            probe._next = Node(value, probe._next)
+
+    def deleAtIndex(self, index):
+        # 要分几种情况进行考虑
+        if self._head is None:
+            return False
+        elif self._head._next is None or index <= 0:
+            data = self._head._data
+            self._head = None
+            return data
+        else:
+            probe = self._head
+            while (index > 1) and (probe._next._next is not None):
+                probe = probe._next
+            data = probe._next._data
+            probe._next = probe._next._next
+            return data
 
     def traverse(self, function):
         probe = self._head
@@ -64,8 +87,9 @@ class SingleLink:
 
     def __getitem__(self, index):
         probe = self._head
-        while ((index != 0) and (probe is not None)):
+        while ((index > 0) and (probe is not None)):
             probe = probe._next
+            index -= 1
         return probe._data
 
     def replace(self, oldValue, newValue):
@@ -78,3 +102,10 @@ class SingleLink:
             return True
         else:
             return False
+
+
+if __name__ == "__main__":
+    sl = SingleLink()
+    sl.insertAsFirst(10)
+    sl.insertAtIndex(1, 20)
+    print(sl[1])
