@@ -20,6 +20,14 @@ class Grid:
     def __getitem__(self, index):
         return self._data[index]
 
+    def __str__(self):
+        result = ""
+        for i in range(self._rows):
+            for j in range(self._cols):
+                result += self._data[i][j] + " "
+            result += "\n"
+        return result
+
 
 if __name__ == "__main__":
     grid = Grid(4, 5, 100)
