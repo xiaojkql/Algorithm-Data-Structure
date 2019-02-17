@@ -6,8 +6,8 @@ Time: 2019-02-17 10:48:29
 '''
 
 # 底层存储数据项的数据结构为链表实现的队列
-from abstractCollections import AbstractCollections
-from node import Node
+from Queue.abstractCollections import AbstractCollections
+from Queue.node import Node
 
 
 class QueueLink(AbstractCollections):
