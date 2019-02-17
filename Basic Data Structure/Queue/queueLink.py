@@ -62,4 +62,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    ql1 = QueueLink([4, 78, 100, 3, 489])
+    ql2 = QueueLink([789, 156, 400, 562])
+    ql3 = ql1 + ql2
+    print(ql3)

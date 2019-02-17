@@ -28,6 +28,7 @@ class AbstractCollections:
         result = type(self)(self)
         for item in other:
             result.add(item)
+        return result
 
     def __eq__(self, other):
         if self is other:
