@@ -15,7 +15,7 @@ class QueueArray(AbstractCollections):
     # constant class variable
     DEFAULT_CAPACITY = 10
 
-    def __init__(self, sourceCollections):
+    def __init__(self, sourceCollections=None):
         # 用 Array类组合成queue的类的实例变量，用来底层存储数据
         self._items = Array(QueueArray.DEFAULT_CAPACITY)
         AbstractCollections.__init__(self, sourceCollections)
