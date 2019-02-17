@@ -7,6 +7,7 @@ Time: 2019-02-17 19:10:53
 
 from arrays import Array
 from abstractList import AbstractList
+from arrayListIterator import ListArrayIter
 
 
 class ListArray(AbstractList):
@@ -53,8 +54,12 @@ class ListArray(AbstractList):
         self.incModCount()
         return popItem
 
+    def listIter(self):
+        return ListArrayIter(self)
 
 # simple test
+
+
 def main():
     ls = ListArray([7, 8, 9, 5, 10])
     print(ls)
