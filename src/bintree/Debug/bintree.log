@@ -1,0 +1,29 @@
+﻿  main.cpp
+d:\mygithub\algorithm\src\list\list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\mygithub\algorithm\src\bintree\binnode.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\mygithub\algorithm\src\uniprint\print_bintree.h(25): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“BinTree<T> *”
+          with
+          [
+              T=int
+          ]
+  d:\mygithub\algorithm\src\uniprint\print.h(34): note: 参见对正在编译的函数 模板 实例化“void UniPrint::p<T>(BinTree<T> &)”的引用
+          with
+          [
+              T=int
+          ]
+  d:\mygithub\algorithm\src\bintree\main.cpp(37): note: 参见对正在编译的函数 模板 实例化“void print<BinTree<T>>(BinTree<T> &)”的引用
+          with
+          [
+              T=int
+          ]
+  d:\mygithub\algorithm\src\bintree\main.cpp(63): note: 参见对正在编译的函数 模板 实例化“void testBinTree<int>(int)”的引用
+  print_HuffChar.cpp
+d:\mygithub\algorithm\src\bintree\binnode.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\mygithub\algorithm\src\list\list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  print_basic.cpp
+d:\mygithub\algorithm\src\bintree\binnode.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\mygithub\algorithm\src\list\list.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+print_basic.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  bintree.vcxproj -> D:\MyGithub\Algorithm\src\bintree\Debug\BinTree.exe
+  bintree.vcxproj -> D:\MyGithub\Algorithm\src\bintree\Debug\BinTree.pdb (Full PDB)

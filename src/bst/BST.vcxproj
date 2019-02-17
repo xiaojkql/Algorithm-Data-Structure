@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
+    <ProjectName>BST</ProjectName>
     <ProjectGuid>{23DEF702-54D0-40AA-8483-38D88C77B85B}</ProjectGuid>
     <RootNamespace>BST</RootNamespace>
     <Keyword>Win32Proj</Keyword>
