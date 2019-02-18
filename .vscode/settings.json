@@ -3,5 +3,8 @@
     "files.associations": {
         "ostream": "cpp",
         "vector": "cpp"
-    }
+    },
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.pep8Enabled": true
 }
