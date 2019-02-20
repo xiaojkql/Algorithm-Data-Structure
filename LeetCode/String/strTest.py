@@ -83,9 +83,15 @@ def test11():
     print(bin(12))
 
 
+# test for str.split()  当为空时，根据任何空格分裂
+def test12():
+    s = "xiao   jk  jksdf   fsdjf"
+    print(s.split())
+
+
 if __name__ == "__main__":
     # print(str([0, 1, 2, 3, 4, 5, 6, 10]))
     # ls = [4, 5, 6]
     # test3(ls)
     # print(ls)
-    test11()
+    test12()
