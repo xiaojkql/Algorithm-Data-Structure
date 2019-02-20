@@ -62,6 +62,25 @@ def test7():
 def test8():
     s = "LLLaaaaLL"
     print(s.find("aaa"))
+    print(s.find(""))
+
+
+# 测试filter，将满足条件的过滤出来
+def test9():
+    ls = [0, 1, 2, 3, 4, 5, 6]
+    print(list(filter(lambda l: l < 2, ls)))
+
+
+def test10():
+    ls = []
+    ls.append(1)
+    print(ls)
+
+
+def test11():
+    a = "111"
+    print(int(a, 2))
+    print(bin(12))
 
 
 if __name__ == "__main__":
@@ -69,4 +88,4 @@ if __name__ == "__main__":
     # ls = [4, 5, 6]
     # test3(ls)
     # print(ls)
-    test8()
+    test11()
