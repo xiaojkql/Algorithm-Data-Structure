@@ -48,9 +48,25 @@ def test6():
     ls[index] = [10, 20, 30]
 
 
+# or 的使用
+def test7():
+    ls1 = [10, 20, 30, 4]
+    ls2 = [0, 1, 2, 3]
+    print(min(ls1 or ls2))  # --> 4
+    ls1 = []
+    ls2 = [0, 1, 2, 3]
+    print(min(ls1 or ls2))  # --> 0
+
+
+# string.find() 的使用
+def test8():
+    s = "LLLaaaaLL"
+    print(s.find("aaa"))
+
+
 if __name__ == "__main__":
     # print(str([0, 1, 2, 3, 4, 5, 6, 10]))
     # ls = [4, 5, 6]
     # test3(ls)
     # print(ls)
-    test6()
+    test8()
