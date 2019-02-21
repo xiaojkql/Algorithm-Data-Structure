@@ -87,6 +87,48 @@ def test11():
 def test12():
     s = "xiao   jk  jksdf   fsdjf"
     print(s.split())
+    s = ""
+    # s.split() --> []
+    # s.split(" ") --> ['']
+    print(s.rstrip().split())  # 返回的是[]
+    print(" ".split(" "))  # 返回的是['','']
+
+
+def test13():
+    print(len(""))
+
+
+# test for zip function
+def test14():
+    strs = ["acc", "bbb"]
+    ls = [1, 2, 3, 4, 5]
+    for i, letter_group in enumerate(zip(*strs)):
+        print(letter_group)
+
+
+def test16():
+    ls = []
+    print(len(ls[-1]))
+
+
+def test15():
+    ls = ["aaaaaaaa", "akjk"]  # 比较项
+    print(min(ls))
+
+
+# test for 整除
+def test17():
+    print(4//5)
+    print(-4//5)  # 都是向下取
+    # a//b --> foot  -(-a//b) --> ceil
+
+
+# test for string find
+def test18():
+    s = "xiaojkql"
+    print(s.find("qy"))  # 不存在返回-1
+    print(s.find("ql"))  # 存在返回第一个字母的位置
+    print(s.find(""))  # 空字符返回0
 
 
 if __name__ == "__main__":
@@ -94,4 +136,4 @@ if __name__ == "__main__":
     # ls = [4, 5, 6]
     # test3(ls)
     # print(ls)
-    test12()
+    test18()
