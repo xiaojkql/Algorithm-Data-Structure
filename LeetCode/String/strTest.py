@@ -1,3 +1,6 @@
+from collections import Counter
+
+
 def test1():
     print("".join(str([1, 2, 3, 4])))
     return "-".join(str(item) for item in [1, 2, 3])
@@ -142,9 +145,52 @@ def test20():
     print(s1)
 
 
+def test21():
+    ls = [(0, 1), (10, 5), (7, 10)]
+    print(dict(ls))
+
+
+def test22():
+    print(set("xiaojkql"))
+
+
+def test23():
+    ls = [[1, 2, 3, 4, 5, 6]*2]*2
+    ls[0][1] = 1100
+    # [1,2,3]*n --> 相当于连接是深复制
+    # [[1,2,3]]*n  --> 里面的列表是浅复制
+    print(ls)
+
+
+def test24():
+    word = "xiao"
+    c = Counter(word)
+    print(c.most_common(2))  # --> [("w",1),()]
+    print(list(c.elements()))  # 返回一个迭代器
+    print(c.keys())  # dict_keys(['x', 'i', 'a', 'o'])
+    print(c.items())  # dict_items([('x', 1), ('i', 1), ('a', 1), ('o', 1)])
+    print(c.values())  # dict_values([1, 1, 1, 1])
+    print(c['q'])  # 不存在时返回0
+    c |= Counter("qin")  # union
+    print(c.items())
+    # 删除用del 或者pop(key)
+    # 几个之中取最大值 |
+    # 几个之中取最小值 &
+    # 两个相加 +，- 但是只会保留非负的
+    # substract() 相同的相减，不存在的用0替换
+    #
+
+
+# test for format
+def test25():
+    a, b = "qin", "yuan"
+    c = "({},{})".format(a, b)
+    print(c)
+
+
 if __name__ == "__main__":
     # print(str([0, 1, 2, 3, 4, 5, 6, 10]))
     # ls = [4, 5, 6]
     # test3(ls)
     # print(ls)
-    test20()
+    test25()
