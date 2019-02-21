@@ -131,9 +131,20 @@ def test18():
     print(s.find(""))  # 空字符返回0
 
 
+def test19(s):
+    s += "s"
+    print(s)
+
+
+def test20():
+    s1 = "xiaojk"
+    test19(s1)  # 是不会被同步改变的
+    print(s1)
+
+
 if __name__ == "__main__":
     # print(str([0, 1, 2, 3, 4, 5, 6, 10]))
     # ls = [4, 5, 6]
     # test3(ls)
     # print(ls)
-    test18()
+    test20()
