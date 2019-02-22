@@ -188,9 +188,14 @@ def test25():
     print(c)
 
 
+def test26():
+    ls = [""]*25
+    print(ls)
+
+
 if __name__ == "__main__":
     # print(str([0, 1, 2, 3, 4, 5, 6, 10]))
     # ls = [4, 5, 6]
     # test3(ls)
     # print(ls)
-    test25()
+    test26()
