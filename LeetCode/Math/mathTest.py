@@ -1,3 +1,6 @@
+import math
+
+
 def test1():
     print(float("inf"))
 
@@ -39,7 +42,21 @@ def test7():
 
 
 # test for & 表示
+# test for math module
+def test8():
+    print(math.pi)  # 3.1415926535....
+    print(math.degrees(math.pi/4))  # 弧度到角度的变换函数
+    print(math.e)  # 2.718281828459045
+    print(math.exp(14))  # e**14
+    print(math.fabs(-45))  # abs(x)
+    print(math.factorial(45))  # x!
+    print(math.floor(45.6))  # 45
+    print(math.ceil(45.6))  # 46
+    print(math.fmod(45, 4))  # 余数，float
+    print(math.gcd(45, 6))  # 最大公约数
+    print(math.hypot(3, 4))  # 返回以x,y为两直角边的斜边的长
+    print(math.isnan())  # what's the function of this function
 
 
 if __name__ == "__main__":
-    test7()
+    test8()
