@@ -1,3 +1,5 @@
+import functools
+import collections
 import math
 
 
@@ -58,5 +60,37 @@ def test8():
     print(math.isnan())  # what's the function of this function
 
 
+def test9():
+
+    dic = collections.defaultdict(int)  # first arg must be collable
+    for j in range(3):
+        for i in range(4):
+            dic[i] += 1
+    print(dic)
+
+
+def test10():
+    pos = False is False
+    print(pos)
+
+
+def test11():
+    print(26//26)
+
+
+def test12Help(x, y):
+    return x+y
+
+
+# test for python functools 模块
+def test12():
+    ls = [1, 2, 3, 4, 5, 6]
+    print(functools.reduce(test12Help, ls))
+
+
+def test13():
+    s = set(1)
+    print(s.add(1))
+
 if __name__ == "__main__":
-    test8()
+    test13()
