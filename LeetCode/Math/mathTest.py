@@ -1,3 +1,4 @@
+import operator
 import functools
 import collections
 import math
@@ -82,7 +83,7 @@ def test12Help(x, y):
     return x+y
 
 
-# test for python functools 模块
+# test for python functools reduce 模块
 def test12():
     ls = [1, 2, 3, 4, 5, 6]
     print(functools.reduce(test12Help, ls))
@@ -92,5 +93,16 @@ def test13():
     s = set(1)
     print(s.add(1))
 
+
+def test14():
+    ls = [1, 2, 345]
+    c = operator.itemgetter()
+
+
+# test for sqrt
+def test15():
+    print(math.sqrt(12))
+
+
 if __name__ == "__main__":
-    test13()
+    test15()
